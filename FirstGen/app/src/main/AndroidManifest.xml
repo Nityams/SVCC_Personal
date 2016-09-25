@@ -18,7 +18,7 @@
                 <!--<category android:name="android.intent.category.LAUNCHER" />-->
             <!--</intent-filter>-->
         <!--</activity>-->
-        <activity android:name=".IntroPage" android:theme="@style/AppTheme.NoActionBar">>
+        <activity android:name=".ProfilePage" android:theme="@style/AppTheme.NoActionBar">>
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -27,7 +27,7 @@
         </activity>
         <activity android:name=".LoginPage" />
         <activity android:name=".ScholarshipPage" />
-        <activity android:name=".ProfilePage" />
+        <activity android:name=".IntroPage" />
         <activity android:name=".StoriesPage"></activity>
     </application>
 

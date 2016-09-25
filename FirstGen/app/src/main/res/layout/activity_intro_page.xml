@@ -13,20 +13,21 @@
     tools:context="teamrocket.firstgen.IntroPage"
     android:background="@drawable/background">
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+        <ImageView
+            android:layout_width="290dp"
+            android:layout_height="288dp"
+            android:src="@drawable/loogo"
+            android:id="@+id/imageView8"
+            android:layout_gravity="center"
+            android:scaleX="0.85"
+            android:scaleY="0.85"
 
-
-
-    <ImageView
-        android:layout_width="290dp"
-        android:layout_height="314dp"
-        android:src="@drawable/loogo"
-        android:id="@+id/imageView8"
-        android:layout_gravity="center"
-        android:scaleX="0.85"
-        android:scaleY="0.85"
-        android:paddingTop="75dp"
-      />
-
+          />
+    </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -39,7 +40,7 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="94dp"
                 android:src="@drawable/slogan1"
                 android:scaleX="0.8"
                 android:scaleY="0.95"
@@ -50,7 +51,8 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -58,7 +60,10 @@
                 android:layout_gravity="center_vertical"
                 android:paddingLeft="20dp"
                 android:paddingRight="20dp"
-                android:layout_marginLeft="75dp">
+                android:layout_marginLeft="70dp"
+                android:background="@drawable/my_button_bg"
+                android:textColor="@android:color/white"
+                android:onClick="onClickLogin">
             </Button>
             <Button
                 android:layout_width="wrap_content"
@@ -67,7 +72,10 @@
                 android:paddingLeft="20dp"
                 android:paddingRight="20dp"
                 android:layout_gravity="center_vertical"
-                android:layout_marginLeft="75dp"/>
+                android:layout_marginLeft="75dp"
+                android:background="@drawable/my_button_bg"
+                android:textColor="@android:color/white"
+                android:onClick="onClickSignup" />
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>
